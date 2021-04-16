@@ -3,6 +3,9 @@ description: Just another documentation theme compatible with GitHub Pages
 
 theme: null
 
+top_link: ""
+top_link_word: "EN"
+
 # debug:
 #   compress: true
 #   dist: false
