@@ -29,8 +29,9 @@
         
     </ul>
     <ul class="breadcrumb" role="navigation" aria-label="breadcrumbs navigation">
+        {% capture link1 %}{{ site.top_link }}{{ page.url}}{% endcapture %}
         <li class="breadcrumb-item">
-            <a href="{{ site.top_link }}" title="{{ site.top_link_word }}" rel="noreferrer" target="_self">
+            <a href="{{ link1 }}" title="{{ site.top_link_word }}" rel="noreferrer" target="_self">
                 {{ site.top_link_word }}
             </a>
         </li>
