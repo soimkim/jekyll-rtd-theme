@@ -8,6 +8,5 @@
 {%- assign site_dirs  = site_pages 
     | where_exp: "item", "item.url != '/ko/'"
     | where_exp: "item", "item.dir == item.url" -%}
-{%- assign site_files = site_pages 
-    | where_exp: "item", "item.url != '/ko/'"
+{%- assign site_files = site_pages
     | where_exp: "item", "item.dir != item.url" -%}
