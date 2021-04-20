@@ -1,6 +1,6 @@
 ---
 sort: 2
-skip: '1'
+skip: 1
 ---
 
 # KOR
