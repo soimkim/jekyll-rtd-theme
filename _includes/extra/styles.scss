@@ -140,6 +140,7 @@ body {
   position: relative;
   width: 100%;
   padding: 10px 0 10px;
+  left : 0px;
 }
 
 .persons .js-dropdown .js-dropdown-content .js-dropdown-arrow {
@@ -148,7 +149,7 @@ body {
   left: 50%;
   width: 0;
   height: 0;
-  margin-left: -55px;
+  margin-left: -45px;
   border: 46px solid transparent;
   border-bottom-color: rgb(197, 103, 119);
   pointer-events: none;
