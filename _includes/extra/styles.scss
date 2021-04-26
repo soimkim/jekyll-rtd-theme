@@ -50,6 +50,7 @@ body {
 }
 
 .persons .person {
+  padding: 0px 10px 0px;
   width: 20%;
   margin-bottom: 0px;
   display: table;
@@ -135,7 +136,7 @@ body {
 
 .persons .js-dropdown .js-dropdown-content {
   background: none repeat scroll 0 0 #FFFFFF;
-  border: 6px solid rgb(197, 103, 119);
+  border: 4px solid rgb(197, 103, 119);
   color: black;
   position: relative;
   width: 100%;
