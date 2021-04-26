@@ -14,7 +14,6 @@ top_link_word: "EN"
 readme_index:
   with_frontmatter: true
 
-lang: "ko"
 plugins:
   - jemoji
   - jekyll-avatar
