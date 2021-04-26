@@ -33,10 +33,14 @@ body {
   min-height: 100%;
 }
 
-.container { width: 100%; }
+.container { 
+  width: 100%;
+  background-color: #fff;
+  color: #fff;
+}
 
 .persons {
-  padding: 40px 0 20px;
+  padding: 20px 0 20px;
   max-width: 1000px;
   margin: 0 auto;
   position: relative;
@@ -54,7 +58,7 @@ body {
   margin-bottom: 0px;
   display: table;
   float: left;
-  border-left: 0px solid transparent;
+  border-left: 5px solid transparent;
   cursor: pointer;
 }
 
@@ -65,9 +69,8 @@ body {
 }
 
 .persons .person .avatar img {
-  border: 2px solid rgb(197, 103, 119);
+  border: 1px solid rgb(197, 103, 119);
   display: inline-block;
-  width: 100%;
   vertical-align: middle;
 }
 
@@ -110,7 +113,7 @@ body {
   border: 0 solid transparent;
   box-sizing: border-box;
   float: left;
-  padding: 0;
+  padding: 10px;
   margin: 20px 0 10px;
   width: 100%;
   display: table;
