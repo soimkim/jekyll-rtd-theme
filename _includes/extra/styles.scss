@@ -28,7 +28,7 @@ a.caption {
 
 body {
   background-color: #fff;
-  color: #333;
+  color: #fff;
   margin: 0;
   min-height: 100%;
 }
@@ -50,11 +50,11 @@ body {
 }
 
 .persons .person {
-  width: 25%;
-  margin-bottom: 20px;
+  width: 20%;
+  margin-bottom: 0px;
   display: table;
   float: left;
-  border-left: 20px solid transparent;
+  border-left: 0px solid transparent;
   cursor: pointer;
 }
 
@@ -65,20 +65,20 @@ body {
 }
 
 .persons .person .avatar img {
-  border: 24px solid #E5E5E5;
+  border: 2px solid rgb(197, 103, 119);
   display: inline-block;
   width: 100%;
   vertical-align: middle;
 }
 
-.persons .person.active .avatar img { border-color: #323A45; }
+.persons .person.active .avatar img { border-color: #A50034; }
 
 .persons .person .fullname {
   width: 100%;
   display: block;
   text-align: center;
   font-family: Raleway, sans-serif;
-  color: #828282;
+  color: black;
   font-size: 20px;
   padding: 10px 0 5px;
 }
@@ -88,7 +88,7 @@ body {
   display: block;
   text-align: center;
   font-family: Raleway, sans-serif;
-  color: #828282;
+  color: black;
   font-size: 16px;
 }
 
@@ -111,7 +111,7 @@ body {
   box-sizing: border-box;
   float: left;
   padding: 0;
-  margin: 40px 0 20px;
+  margin: 20px 0 10px;
   width: 100%;
   display: table;
   border-color: transparent;
@@ -134,7 +134,7 @@ body {
 .persons .js-dropdown .js-dropdown-content {
   background: none repeat scroll 0 0 #FFFFFF;
   border: 6px solid #E5E5E5;
-  color: #333333;
+  color: #A50034;
   position: relative;
   width: 100%;
   padding: 48px 32px 0;
