@@ -42,7 +42,7 @@ body {
 .persons {
   padding: 20px 0 20px;
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 10 auto;
   position: relative;
 }
 
@@ -74,7 +74,7 @@ body {
   vertical-align: middle;
 }
 
-.persons .person.active .person { border-color: #A50034; }
+.persons .person.active { border-color: #A50034; }
 
 .persons .person .fullname {
   width: 100%;
