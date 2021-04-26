@@ -40,7 +40,7 @@ This theme is inspired by [sphinx-rtd-theme](https://github.com/readthedocs/sphi
     </div>   
     <div class="person js-dropdown-item">
       <div class="avatar"><img src="https://img.icons8.com/wired/64/000000/plugin.png" alt="" title="Title 3"></div>
-      <div class="fullname">3rd Party Project</div>
+      <div class="fullname">3rd Party</div>
       <div class="js-description">
         <p>3rd Party로부터 입수된 Software별 OSS 관리</p>
       </div>
