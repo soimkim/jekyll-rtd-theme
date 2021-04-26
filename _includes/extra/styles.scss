@@ -33,16 +33,12 @@ body {
   min-height: 100%;
 }
 
-.container { 
-  width: 100%;
-  background-color: #fff;
-  color: #fff;
-}
+.person-container { width: 100%;}
 
 .persons {
-  padding: 20px 0 20px;
+  padding: 20px 5px 20px;
   max-width: 1000px;
-  margin: 10 auto;
+  margin: 0 auto;
   position: relative;
 }
 
@@ -60,7 +56,7 @@ body {
   float: left;
   border-left: 5px solid transparent;
   cursor: pointer;
-  border: 1px solid rgb(197, 103, 119);
+  border: 1px solid #A50034;
 }
 
 .persons .person .avatar {
@@ -74,7 +70,7 @@ body {
   vertical-align: middle;
 }
 
-.persons .person.active { border-color: #A50034; }
+.persons .person.active { background-color: rgb(197, 103, 119); }
 
 .persons .person .fullname {
   width: 100%;

@@ -12,9 +12,10 @@ This theme is inspired by [sphinx-rtd-theme](https://github.com/readthedocs/sphi
 - [@primer/css](https://github.com/primer/css)
 - [github-pages](https://github.com/github/pages-gem) ([dependency versions](https://pages.github.com/versions/))
 
+
 ## Testing
 
-<div class="container">
+<div class="person-container">
   <div class="persons js-dropdown-items">
     <div class="person js-dropdown-item">
       <div class="avatar"><img src="https://img.icons8.com/wired/64/000000/plugin.png" alt="" title="Title 1"></div>
