@@ -72,6 +72,8 @@ body {
 
 .persons .person.active { background-color: rgb(197, 103, 119); }
 
+.persons .person.active .fullname { color:#fff; }
+
 .persons .person .fullname {
   width: 100%;
   display: block;
@@ -80,6 +82,7 @@ body {
   color: black;
   font-size: 20px;
   padding: 10px 0 5px;
+  font-weight: bold;
 }
 
 .persons .person .title {
@@ -132,7 +135,7 @@ body {
 
 .persons .js-dropdown .js-dropdown-content {
   background: none repeat scroll 0 0 #FFFFFF;
-  border: 6px solid #E5E5E5;
+  border: 6px solid rgb(197, 103, 119);
   color: black;
   position: relative;
   width: 100%;
@@ -147,7 +150,7 @@ body {
   height: 0;
   margin-left: -55px;
   border: 46px solid transparent;
-  border-bottom-color: #E5E5E5;
+  border-bottom-color: rgb(197, 103, 119);
   pointer-events: none;
   -webkit-transition: left 0.3s;
   -moz-transition: left 0.3s;
